@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f7fb;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+.navbar-chap {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navbar-chap img {
+    height: 45px;
+}
+.logo-matn {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0f4c95;
+}
+.navbar-ong {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.tugma {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0f4c95;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.tugma:hover {
+    background-color: #0a3868;
+}
+.tugma-royxat {
+    background-color: #1ea54c;
+}
+.tugma-royxat:hover {
+    background-color: #158a3d;
+}
+
+.sarlavha-qism {
+    text-align: center;
+    padding: 50px 20px 10px 20px;
+}
+.sarlavha-qism h2 {
+    font-size: 30px;
+    color: #0a2540;
+    margin-bottom: 10px;
+}
+.sarlavha-qism p {
+    color: #666;
+}
+
+.xodimlar {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 60px 70px 60px;
+    flex-wrap: wrap;
+}
+.xodim-rasm {
+    width: 22%;
+    min-width: 220px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.xodim-rasm img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+.xodim-matni {
+    padding: 18px;
+}
+.xodim-matni h3 {
+    color: #0a2540;
+    margin-bottom: 5px;
+}
+.lavozim {
+    color: #0f4c95;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.xodim-matni p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.bolimlar {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px 60px 80px 60px;
+    flex-wrap: wrap;
+}
+.bolim-card {
+    width: 22%;
+    min-width: 220px;
+    padding: 30px 25px;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    transition: transform 0.2s;
+}
+.bolim-card:hover {
+    transform: translateY(-8px);
+}
+.bolim-1 {
+    background: linear-gradient(135deg, #0f4c95, #1a6fd1);
+}
+.bolim-2 {
+    background: linear-gradient(135deg, #1ea54c, #27c765);
+}
+.bolim-3 {
+    background: linear-gradient(135deg, #c0392b, #e05c4c);
+}
+.bolim-4 {
+    background: linear-gradient(135deg, #8e44ad, #b366d9);
+}
+.bolim-belgi {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+.bolim-card h3 {
+    margin-bottom: 12px;
+}
+.bolim-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.95;
+}
+.bolim-link {
+    margin-top: 15px;
+    font-weight: bold;
+    opacity: 1 !important;
+}
+
+.pastki {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 60px;
+    background-color: #0a2540;
+    color: white;
+}
+.davlat {
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.pastki-chap p:last-child {
+    color: #cfe3ff;
+}
+.pastki-ong a {
+    color: #cfe3ff;
+    text-decoration: none;
+}
+.pastki-ong a:hover {
+    text-decoration: underline;
+}
